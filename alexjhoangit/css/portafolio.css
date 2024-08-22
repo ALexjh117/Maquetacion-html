@@ -4,10 +4,10 @@ body {
 
 .header {
     border: 1px solid rgb(22, 22, 21);
+
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .main {
@@ -17,12 +17,6 @@ body {
 
 }
 
-
-.imagen_centrada {
-   width: 80%;
-}
-
-
 .footer {
     border: 1px solid black;
     height: 10vh;
@@ -31,7 +25,7 @@ body {
 }
 
 .border {
-    border: 1px solid black;
+    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
 }
@@ -43,21 +37,52 @@ body {
 }
 
 .menu1 {
-    display: flex; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-evenly;
 }
-
 
 .menuprincipal {
-    width: 100%; 
+    width: 100%;
 }
-
 
 .item {
-    list-style: none; 
-    margin:  15px; 
+    list-style: none;
+}
+
+
+
+.estilos{
+background-color: rgba(255, 255, 255, 0.7);
+padding: 10px; 
+border-radius: 10px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+margin-left: 0;
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center; 
+gap: 20px;
+}
+.fondo{
+    background-image: url("../img/robot.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
     
 }
+
+
+.imagen{
+        width: 30%;
+        
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px auto;
+        border: 5px solid rgb(100, 95, 95);
+        display: block;
+        margin-bottom: 20px;
+        
+       
+     }
+
+
+
